@@ -5,5 +5,3 @@ services:
   - postgres-14.4
   - rabbitmq-3.9
   - seq-2022.1
-  - redis-7.0
-  - unleash-6.5.3
