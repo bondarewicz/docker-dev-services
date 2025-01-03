@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  unleash:
+    image: unleashorg/unleash-server:6.5.3
+    volumes:
+      - unleash-6.5.3-data:/data
+    env_file:
+      - unleash-6.5.3/service.env
+      - ../.env/unleash-6.5.3.env
+    ports:
+      - 4242:4242
+    networks:
+      - devsvcnet
+
+volumes:
+  unleash-6.5.3-data:
+    driver: local
