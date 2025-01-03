@@ -16,6 +16,7 @@ Supported services:
 - Redis
 - Seq
 - SQL Server
+- Unleash
 - Vault
 
 ## Prerequisites
