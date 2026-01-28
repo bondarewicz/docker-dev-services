@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   eventstore:
     image: eventstore/eventstore:21.10.5-buster-slim

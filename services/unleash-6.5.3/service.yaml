@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   unleash:
     image: unleashorg/unleash-server:6.5.3
